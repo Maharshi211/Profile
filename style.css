@@ -96,7 +96,7 @@ nav ul li a:hover::after{
 
 /*----------------------------------------------------------------------------About-------------*/
 #about{
-    padding: 80px 0;
+    padding: 80px 40px;
     color: #ffffff;
     background: #ff9900;
 
@@ -165,7 +165,7 @@ nav ul li a:hover::after{
 
 /*-------------------------------------------------------------------services-------------------------*/
 #services{
-        padding: 50px 0;
+        padding: 50px 40px;
 }
 .services-list{
     display: grid;
@@ -203,8 +203,8 @@ nav ul li a:hover::after{
     transform: translateY(+20px);
 }
 /*-------------------P-------------------------------*/
-#portfolio{
-    padding: 50px 0;
+#Protfolio{
+    padding: 50px 40px;
 }
 .work-list{
     display: grid;
@@ -281,6 +281,10 @@ nav ul li a:hover::after{
 }
 
 /*---------------------------------------------------------------contact--------------------------*/
+#contact{
+    padding: 0 50px;
+
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -315,7 +319,7 @@ nav ul li a:hover::after{
     background: #ff004f;
 }
 .contact-right form{
-    width: 50%;    
+    width: 70%;    
 }
 form input, form textarea{
     width: 100%;
@@ -339,7 +343,7 @@ form btn2{
     width: 100%;    
     text-align: center;
     padding: 25px 0;
-    background: #1a1919;
+    background: #000000;
     font-weight: 300;
     margin-top: 20px;
 
@@ -353,12 +357,15 @@ nav .fa-solid{
     #header{
         background-image: url(Phone\ Photo.png);
     }
-    .Logo{
-        width: 1000%;
+    h2 .Logo{
+        width: 100%;
         top: 5px;
         left: 5px;
         border-radius: 10px;
     }
+    /* #header h2{
+        padding: 10px 10px;
+    } */
     .header-text{
         margin-top: 170%;
         left: 20px;
@@ -380,6 +387,7 @@ nav .fa-solid{
     nav .fa-solid.fa-bars{
         display: block;
         font-size: 35px;
+        margin-top: 0;
         margin-left: 250px;
     }
     nav ul{
@@ -430,9 +438,3 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
-
-
-
-
-
-
